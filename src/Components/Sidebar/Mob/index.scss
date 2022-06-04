@@ -1,0 +1,12 @@
+.stepper-mob {
+    &__title {
+        &::after {
+            content: "";
+            display: block;
+            width: 90px;
+            height: 3px;
+            margin-top: 3px;
+            background-color: var(--orange-600);
+        }
+    }
+}

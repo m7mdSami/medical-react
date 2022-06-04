@@ -1,0 +1,10 @@
+.head {
+    &__logo {
+        width: 40px;
+        height: 40px;
+        text-indent: -999px;
+        background-image: url(../../../assets/logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

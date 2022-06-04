@@ -1,0 +1,17 @@
+$radius: 50px;
+
+.sidebar {
+    background-image: url(../../assets/Union.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom-right-radius: $radius;
+    &::before {
+        content: '';
+        display: block;
+        background-image: url(../../assets/head.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
