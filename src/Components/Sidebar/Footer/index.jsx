@@ -2,7 +2,7 @@ import './index.scss'
 import { Button } from 'primereact/button';
 import { ReactComponent as Social } from '../../../assets/svg/Vector.svg';
 
-const Footer = (props: Record<string, any>) => {
+const Footer = (props) => {
      return(
        <footer className='footer mt-auto border-top-1 border-black-alpha-30 py-3'>
            <span className='copyright'>

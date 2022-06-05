@@ -5,7 +5,7 @@ import { ReactComponent as SearchIdIcon } from '../../../assets/svg/search-id.sv
 import { ReactComponent as Mail } from '../../../assets/svg/mail.svg';
 import { Dropdown } from 'primereact/dropdown';
 
-const Form = (props: Record<string, any>) => {
+const Form = (props) => {
 
     const cities = [
         { name: 'New York', code: 'NY' },
