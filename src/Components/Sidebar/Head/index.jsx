@@ -1,7 +1,7 @@
 import { Avatar } from 'primereact/avatar';
 import './index.scss'
 
-const Head = (props: Record<string, any>) => {
+const Head = (props) => {
      return(
        <section className="head flex justify-content-around align-items-center">
            <div className='head__logo flex'>Medical Malpractice</div>

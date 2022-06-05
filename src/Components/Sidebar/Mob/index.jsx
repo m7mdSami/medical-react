@@ -1,6 +1,6 @@
 import './index.scss'
 
-const StepperMob = (props: Record<string, any>) => {
+const StepperMob = (props) => {
      return(
        <section className="stepper-mob mb-3">
            <div className='bg-white flex justify-content-between p-3'>

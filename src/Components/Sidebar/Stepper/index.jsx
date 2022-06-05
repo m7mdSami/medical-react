@@ -2,37 +2,37 @@ import "./index.scss";
 import { Steps } from "primereact/steps";
 import { useState } from "react";
 
-const Stepper = (props: Record<string, any>) => {
+const Stepper = (props) => {
   let [activeIndex, setActiveIndex] = useState(0);
 
   const interactiveItems = [
     {
       label: "Personal",
-      command: (event: Record<string, any>) => {
+      command: (event) => {
         console.log(`Personal`);
       },
     },
     {
       label: "Seat",
-      command: (event: Record<string, any>) => {
+      command: (event) => {
         console.log(`Seat`);
       },
     },
     {
       label: "Payment",
-      command: (event: Record<string, any>) => {
+      command: (event) => {
         console.log(`Payment`);
       },
     },
     {
       label: "Confirmation",
-      command: (event: Record<string, any>) => {
+      command: (event) => {
         console.log(`Confirmation`);
       },
     },
   ];
 
-  const stepperData: Array<{ title: string; description: string }> = [
+  const stepperData = [
     {
       title: `Personal Details`,
       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit`,

@@ -5,7 +5,7 @@ import { ReactComponent as ChatIcon } from '../../assets/svg/chat-icon.svg';
 import { ReactComponent as MoodIcon } from '../../assets/svg/mood-color.svg';
 import { ReactComponent as SearchIcon } from '../../assets/svg/search.svg';
 
-const Header = (props: Record<string, any>) => {
+const Header = (props) => {
      return(
        <header className='header flex justify-content-end p-6'>
            <button className='border-none p-2 mx-1 bg-transparent outline-none flex'><span className='lang mx-1'>EN</span> <LangIcon/></button>
